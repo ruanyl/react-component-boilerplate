@@ -6,7 +6,6 @@
   "scripts": {
     "build": "./node_modules/.bin/babel src --out-dir lib",
     "example": "./node_modules/.bin/webpack -p --config webpack.dll.config.js && ./node_modules/.bin/webpack -p --config webpack.config.js",
-    "example:watch": "npm run example:dll && NODE_ENV=development ./node_modules/.bin/webpack --progress --color --config webpack.config.js",
     "example:dll": "NODE_ENV=development ./node_modules/.bin/webpack --progress --colors --config webpack.dll.config.js",
     "start": "NODE_ENV=development node server.js",
     "lint": "./node_modules/.bin/eslint 'components/**/*.js' 'containers/**/*.js' 'modules/**/*.js' 'app/**/*.js'",

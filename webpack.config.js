@@ -69,8 +69,7 @@ const common = {
         },
       },
     ],
-  },
-  watch: true,
+  }
 }
 
 if (ENV === 'development') {
