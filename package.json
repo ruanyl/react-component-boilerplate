@@ -10,7 +10,8 @@
     "start": "NODE_ENV=development node server.js",
     "lint": "./node_modules/.bin/eslint 'components/**/*.js' 'containers/**/*.js' 'modules/**/*.js' 'app/**/*.js'",
     "analyzer": "./node_modules/.bin/webpack --json | webpack-bundle-size-analyzer",
-    "prepublish": "npm run build"
+    "prepublish": "npm run build",
+    "gh-pages": "make gh-pages"
   },
   "author": "Yulong Ruan",
   "license": "MIT",
